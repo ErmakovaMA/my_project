@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "VD-games"
+version = "0.1.0"
+description = "My VD games project"
+authors = [{name = "ErmakovaMA", email = "isip_m.a.ermakova@mpt.ru"}]
+
+[project.scripts]
+VD-games = "VD_games.main:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
