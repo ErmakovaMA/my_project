@@ -6,10 +6,19 @@ build-backend = "setuptools.build_meta"
 name = "VD-games"
 version = "0.1.0"
 description = "My VD games project"
-authors = [{name = "ErmakovaMA", email = "isip_m.a.ermakova@mpt.ru"}]
+authors = [{ name = "ErmakovaMA", email = "isip_m.a.ermakova@mpt.ru" }]
+dependencies = [
+    "prompt>=0.4.1",
+]
 
 [project.scripts]
-VD-games = "VD_games.main:main"
+VD-games = "VD_games.scripts.VD_games:main"
+VD-even = "VD_games.scripts.VD_even:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.15.16",
+]

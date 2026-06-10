@@ -1,0 +1,6 @@
+Metadata-Version: 2.4
+Name: VD-games
+Version: 0.1.0
+Summary: My VD games project
+Author-email: ErmakovaMA <isip_m.a.ermakova@mpt.ru>
+Requires-Dist: prompt>=0.4.1

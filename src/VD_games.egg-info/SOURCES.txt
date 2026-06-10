@@ -1,0 +1,12 @@
+pyproject.toml
+src/VD_games/__init__.py
+src/VD_games/cli.py
+src/VD_games/main.py
+src/VD_games.egg-info/PKG-INFO
+src/VD_games.egg-info/SOURCES.txt
+src/VD_games.egg-info/dependency_links.txt
+src/VD_games.egg-info/entry_points.txt
+src/VD_games.egg-info/requires.txt
+src/VD_games.egg-info/top_level.txt
+src/VD_games/scripts/VD_even.py
+src/VD_games/scripts/VD_games.py
