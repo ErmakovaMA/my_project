@@ -11,7 +11,11 @@ src/VD_games.egg-info/top_level.txt
 src/VD_games/games/calc.py
 src/VD_games/games/engine.py
 src/VD_games/games/gcd.py
+src/VD_games/games/prime.py
+src/VD_games/games/progression.py
 src/VD_games/scripts/VD_calc.py
 src/VD_games/scripts/VD_even.py
 src/VD_games/scripts/VD_games.py
 src/VD_games/scripts/VD_gcd.py
+src/VD_games/scripts/VD_prime.py
+src/VD_games/scripts/VD_progression.py
